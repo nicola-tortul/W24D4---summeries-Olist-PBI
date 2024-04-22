@@ -1,0 +1,11 @@
+W24D4  - Esame di fine modulo - POWER BI	
+
+
+Il presente documento spiega in poche righe lo sviluppo dell'esercitazione di Power BI sull'analisi dei dati relativi al datasaet Olist.
+L'analisi che ho sviluppato parte da una primo controllo delle tabelle, pulizia, inserimento delle intestazioni, correzione della tipologia di dato delle colonne, verifica dei nomi delle città.
+
+Successivamente ho proseguito nell'esercizio facendo delle merge:
+inner join o left join (in questo caso il risultato sarebbe stato il medesimo) tra la tabella ORDER ITEMS e la tabella ORDERS, creando così la tabella SALES, per poi procedere con delle left join andando ad integrare all'interno della SALES le tabelle ORDER REVIEWS, ORDER PAYMENTS E PRODUCTS.
+Per integrare i dati nel modo corretto all'interno della tabella SALES sono state effettuate delle group by nelle tabelle REVIEW e PAYMENTS.
+
+Una volta ottenute le tabelle ho creato una nuova tabella calendario e successivamente sono state fatte  le relazioni per poter poi sviluppare le visualizzazioni presenti nel report in power bi - NICOLA TORTUL
